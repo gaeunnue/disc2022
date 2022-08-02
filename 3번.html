@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        window.onload=function(){
+            jinsu={ name: "Jinsu", age:21}
+            chulsu={ name: "Chulsu", age:20}
+            function my(e){
+                sum = jinsu.age + chulsu.age
+                avg= sum/2
+                e.target.innerHTML += avg
+                jinsu.age++
+                chulsu.age++ 
+            }
+            btn = document.querySelectorAll('button');
+            for (k=0; k<btn.length; k++){
+                btn[k].onclick=my
+            }
+        }
+    </script>
+</head>
+<body>
+    <button>버튼</button>
+    <button>버튼</button>
+    <button>버튼</button>
+</body>
+</html>
