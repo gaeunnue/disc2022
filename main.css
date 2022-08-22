@@ -1,0 +1,59 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image:url('ㄱㄴㄷㄹ.jpg');
+    background-size:cover;
+    background-position:50%;
+}
+
+.h1{
+    position:absolute;
+    top: 170px;
+    left: 320px;
+    font-size:120px;
+    font-family:'IBM Plex Sans', sans-serif;
+    color:#2cc3bedc;
+    opacity:0.7;
+    letter-spacing: -5px;
+}
+.h2{
+    position: absolute;
+    top: 330px;
+    left: 460px;
+    font-size:30px;
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: lighter;
+    opacity: 0.5;
+    color:rgb(52, 50, 50);
+    letter-spacing: -1px;
+}
+
+.myButton {
+    position: absolute;
+    top: 500px;
+    left: 610px;
+    margin:auto;
+	box-shadow: 2px 3px 9px 0px #363434;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:19px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:'Gothic A1', sans-serif;
+	font-size:30px;
+	padding:20px 30px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #201e1e;
+    opacity: 0.4;
+}
+
+.myButton:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #e2e2e2 100%);
+	background-color:#f6f6f6;
+}
+/*
+.myButton:active {
+	position:relative;
+	top:1px;
+}

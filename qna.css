@@ -1,0 +1,51 @@
+#qna{
+    display:none;
+}
+
+.qBox{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Gothic A1', sans-serif;
+    font-weight:bold;
+    opacity: 0.7;
+
+}
+
+.answerList {
+    background-color: whitesmoke;
+    color:rgb(51, 46, 46);
+    text-align: center;
+    border:0;
+    outline:0;
+    display: block;
+    width: 400px;
+    margin: auto;
+    box-shadow: 2px 3px 9px 0px #a29494;
+	border-radius:19px;
+    text-shadow:0px 0px 0px #454141;
+    background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    font-family: 'Gowun Batang', serif;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+.answerList:hover, .answerList:focus{
+    background-color: palegreen;
+    opacity: 0.3;
+}
+
+.status{
+    height: 30px;
+    width: 400px;
+    background-color:white;
+    border-radius: 20px;
+    opacity: 0.6;
+}
+
+.statusBar{
+    height: 100%;
+    background-color:aquamarine;
+    opacity: 0.3;
+    border-radius: 20px;
+}
